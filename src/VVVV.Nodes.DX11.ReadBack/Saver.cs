@@ -252,7 +252,7 @@ namespace VVVV.Nodes.DX11.ReadBack
 							{
 								Directory.CreateDirectory(directory);
 							}
-							FeralTic.DX11.Resources.TextureLoader.NativeMethods.SaveTextureToFile(FAssets.SaveDevice.ComPointer
+                            VVVV.Nodes.DX11.ReadBack.TextureLoader.NativeMethods.SaveTextureToFile(FAssets.SaveDevice.ComPointer
 								, FAssets.SaveDeviceContext.ComPointer
 								, FAssets.StagingTextureOnSaveDevice.ComPointer
 								, filename

@@ -223,7 +223,7 @@ namespace VVVV.Nodes.DX11.ReadBack
 							if (saver == null && FSavers.Count < FInMaxSavers[0])
 							{
 								saver = new SaverAsync();
-								saver.ZombieSurvivalAge = FConfigZombieSurvivalAge[0];
+								//saver.ZombieSurvivalAge = FConfigZombieSurvivalAge[0]; // crashes :(
 								FSavers.Add(saver);
 							}
 

@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta34.2.dtd" >
-   <PATCH nodename="C:\vvvv\vvvv_45beta34.2_x64\packs\VVVV.Nodes.DX11.ReadBack\nodes\plugins\Writer (DX11.Texture2D Async) help.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\vvvv\VVVV.Nodes.ReadBack\nodes\plugins\Writer (DX11.Texture2D Async) help.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="15420" top="6924" width="16200" height="15828">
    </BOUNDS>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="3" systemname="IOBox (String)">
@@ -272,7 +272,7 @@
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <PACK Name="addonpack" Version="34.1.0">
+   <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <LINK srcnodeid="45" srcpinname="Buffers" dstnodeid="42" dstpinname="Texture In" linkstyle="VHV">
    <LINKPOINT x="4692" y="5618">
@@ -489,7 +489,7 @@
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Intersperse" slicecount="1" values="DosPath">
+   <PIN pinname="Intersperse" slicecount="1" values="None">
    </PIN>
    </NODE>
    <LINK srcnodeid="83" srcpinname="Output" dstnodeid="85" dstpinname="Input 1">
@@ -499,7 +499,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="7140" top="6768" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="async-test">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="async-test\">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="text">
    </PIN>
@@ -882,4 +882,6 @@
    </LINK>
    <LINK srcnodeid="115" srcpinname="Filename" dstnodeid="72" dstpinname="Input" hiddenwhenlocked="1">
    </LINK>
+   <PACK Name="VVVV.Packs" Version="0.2.0">
+   </PACK>
    </PATCH>
