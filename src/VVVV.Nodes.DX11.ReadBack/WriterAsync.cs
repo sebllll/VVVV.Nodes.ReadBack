@@ -46,6 +46,7 @@ namespace VVVV.Nodes.DX11.ReadBack
 			public static int DefaultZombieSurvivalAge = 2;
 
 			int FZombieSurvivalAge = DefaultZombieSurvivalAge;
+
 			/// <summary>
 			/// For Async Writers, this is the number of frames a completed saver will stay alive for allowing it to be recycled
 			/// </summary>
